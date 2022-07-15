@@ -1,5 +1,5 @@
 ### Hi there 👋
-![Vladimir's GitHub stats](https://github-readme-stats.vercel.app/api?username=ardonplay&show_icons=true&bg_color=000000)
+![Vladimir's GitHub stats](https://github-readme-stats.vercel.app/api?username=ardonplay&show_icons=true&icon_color=c90404)
 <!--
 **ardonplay/ardonplay** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

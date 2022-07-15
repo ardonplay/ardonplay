@@ -1,5 +1,5 @@
 ### Hi there 👋
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ardonplay)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ardonplay)](https://github.com/anuraghazra/github-readme-stats&bg_color=#111212)
 <!--
 **ardonplay/ardonplay** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

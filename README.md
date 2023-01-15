@@ -5,7 +5,5 @@
 
 [![Twitter Badge](https://img.shields.io/badge/Twitter-Profile-informational?style=flat&logo=twitter&logoColor=white&color=1CA2F1)](https://twitter.com/ardonplay)
 
-[![Twitter Badge](https://img.shields.io/badge/Twitter-Profile-informational?style=flat&logo=twitter&logoColor=white&color=1CA2F1)](https://twitter.com/ardonplay)
+[![Telegram Badge](https://img.shields.io/badge/-telegram-red?style=flat&logo=twitter&logoColor=white&color=1CA2F1)]([https://twitter.com/ardonplay](https://t.me/ardonplay))
 
-[![Telegram Badge](https://img.shields.io/badge/-telegram-red?color=white&logo=telegram&logoColor=black&color=1CA2F1)]
-(https://t.me/ardonplay)

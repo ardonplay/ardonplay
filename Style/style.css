@@ -33,10 +33,11 @@ a {
     height: 5vh;
     width: 15vw;
     font-size: 4vh;
-    align-items: center;
+    text-align: center;
     transition:.5s;
 }
 .yellow {
+   
     background: #fcbb01;
     border-radius: 100px; 
     height: 5vh;
@@ -46,6 +47,7 @@ a {
     transition:.5s;
 }
 .blue {
+  
     background: #01d9d1;
     border-radius: 100px; /* Уголки */
     text-align: center;
@@ -56,7 +58,7 @@ a {
 }
 .red:hover{
     background-color: #676ed1; 
-    padding: 18px 38px;
+    padding: 18px 0px;
     transition:.5s;
   }
 .red:hover .button_text {
@@ -64,7 +66,7 @@ a {
 }
 .blue:hover{
     background-color: #676ed1; 
-    padding: 18px 38px;
+    padding: 18px 0px;
     transition:.5s;
   }
 .blue:hover .button_text {
@@ -72,7 +74,7 @@ a {
 }
 .yellow:hover{
     background-color: #676ed1; 
-    padding: 18px 38px;
+    padding: 18px 0px;
     transition:.5s;
   }
 .yellow:hover .button_text {

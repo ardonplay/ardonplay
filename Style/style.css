@@ -119,30 +119,54 @@ footer {
     height: 100vh;
     background: #090C2F;
   }
-
+  .inside_red {
+    background: #c90404;
+    border-radius: 100px; 
+    height: 6vh;
+    width: 30vw;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 3vh;
+    text-align: center;
+    transition:0.5s;
+}
+.inside_yellow {
+    background: #fcbb01;
+    border-radius: 100px; 
+    height: 6vh;
+    width: 30vw;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 3vh;
+    text-align: center;
+    transition:0.5s;
+}
+.inside_blue {
+    background: #01d9d1;
+    border-radius: 100px; /* Уголки */
+    display: table-cell;
+    vertical-align: middle;
+    height: 6vh;
+    width: 30vw;
+    text-align: center;
+    font-size: 3vh;
+    transition:0.5s;
+}
+.hidden{
+    display:none;
+}
   @media screen and (max-width: 950px) {
     .name{
         display: none;
     }
-    .red{
-        width: 31vw;
-        pointer-events: none;
-        align-items: center;
+    .hidden{
+        display: unset;
     }
-    .blue{
-        pointer-events: none;
-        width: 31vw;
-    }
-    .yellow{
-        width: 31vw;
-        pointer-events: none;
+    .nothiden{
+        display: none;
     }
     header {
-column-gap: 3vw;
-    }
-    .button_text{
-        font-size: Calc(7.5vw - 0.1vh);
-        opacity: 1;
+    column-gap: 3vw;
     }
 
 }

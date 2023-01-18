@@ -1,0 +1,105 @@
+html {
+    scroll-behavior: smooth; 
+}
+body {
+    background: #090C2F;
+    color: aliceblue;
+    font-family: 'Sofia Sans';
+    font-size: 3vh;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 9vw;
+    height: 10vh;
+}
+.name {
+    padding-right: 1vw;
+    font-size: 5vh;
+}
+.button_text {
+    display: none;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+.red {
+    background: #c90404;
+    border-radius: 100px; 
+    height: 5vh;
+    width: 15vw;
+    font-size: 4vh;
+    align-items: center;
+    transition:.5s;
+}
+.yellow {
+    background: #fcbb01;
+    border-radius: 100px; 
+    height: 5vh;
+    width: 15vw;
+    font-size: 4vh;
+    text-align: center;
+    transition:.5s;
+}
+.blue {
+    background: #01d9d1;
+    border-radius: 100px; /* Уголки */
+    text-align: center;
+    height: 5vh;
+    width: 15vw;
+    font-size: 4vh;
+    transition:.5s;
+}
+.red:hover{
+    background-color: #676ed1; 
+    padding: 18px 38px;
+    transition:.5s;
+  }
+.red:hover .button_text {
+    display: block;
+}
+.blue:hover{
+    background-color: #676ed1; 
+    padding: 18px 38px;
+    transition:.5s;
+  }
+.blue:hover .button_text {
+    display: block;
+}
+.yellow:hover{
+    background-color: #676ed1; 
+    padding: 18px 38px;
+    transition:.5s;
+  }
+.yellow:hover .button_text {
+    display: block;
+}
+.buttons {
+    column-gap: 5vw;
+    display: flex;
+    padding: auto;
+}
+hr {
+    width: 85%;
+}
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.Text{
+
+    background: rgba(156, 143, 143,0.1); /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 100px; 
+}

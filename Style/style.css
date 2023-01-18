@@ -21,7 +21,7 @@ header {
 }
 .button_text {
     opacity: 0;
-    transition:1s;
+    transition:0.5s;
 }
 a {
     outline: none;
@@ -35,7 +35,7 @@ a {
     width: 15vw;
     font-size: 4vh;
     text-align: center;
-    transition:1s;
+    transition:0.5s;
 }
 .yellow {
    
@@ -120,8 +120,29 @@ footer {
     background: #090C2F;
   }
 
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 950px) {
     .name{
         display: none;
     }
+    .red{
+        width: 31vw;
+        pointer-events: none;
+        align-items: center;
+    }
+    .blue{
+        pointer-events: none;
+        width: 31vw;
+    }
+    .yellow{
+        width: 31vw;
+        pointer-events: none;
+    }
+    header {
+column-gap: 3vw;
+    }
+    .button_text{
+        font-size: Calc(7.5vw - 0.1vh);
+        opacity: 1;
+    }
+
 }

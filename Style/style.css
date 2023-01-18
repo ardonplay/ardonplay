@@ -10,7 +10,7 @@ body {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     column-gap: 9vw;
     height: 10vh;
@@ -93,11 +93,11 @@ hr {
     width: 85%;
 }
 footer {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     width: 100%;
-    text-align: center;
+    text-align:center;
     font-size: 2vh;
+    height: 3vh;
+    height: auto;
 }
 
 .Text{
@@ -119,3 +119,9 @@ footer {
     height: 100vh;
     background: #090C2F;
   }
+
+@media screen and (max-width: 600px) {
+    .name{
+        display: none;
+    }
+}

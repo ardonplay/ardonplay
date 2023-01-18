@@ -120,7 +120,7 @@ footer {
     background: #090C2F;
   }
 
-@media screen and (max-width: 600px) {
+  @media screen and (max-width: 479px) {
     .name{
         display: none;
     }

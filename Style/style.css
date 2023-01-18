@@ -20,7 +20,8 @@ header {
     font-size: 5vh;
 }
 .button_text {
-    display: none;
+    opacity: 0;
+    transition:1s;
 }
 a {
     outline: none;
@@ -34,7 +35,7 @@ a {
     width: 15vw;
     font-size: 4vh;
     text-align: center;
-    transition:.5s;
+    transition:1s;
 }
 .yellow {
    
@@ -44,7 +45,7 @@ a {
     width: 15vw;
     font-size: 4vh;
     text-align: center;
-    transition:.5s;
+    transition:0.5s;
 }
 .blue {
   
@@ -54,31 +55,34 @@ a {
     height: 5vh;
     width: 15vw;
     font-size: 4vh;
-    transition:.5s;
+    transition:0.5s;
 }
 .red:hover{
     background-color: #676ed1; 
     padding: 18px 0px;
-    transition:.5s;
+    transition:0.5s;
   }
 .red:hover .button_text {
-    display: block;
+    transition:0.5s;
+    opacity: 1;
 }
 .blue:hover{
     background-color: #676ed1; 
     padding: 18px 0px;
-    transition:.5s;
+    transition:0.5s;
   }
 .blue:hover .button_text {
-    display: block;
+    transition:0.5s;
+    opacity: 1;
 }
 .yellow:hover{
     background-color: #676ed1; 
     padding: 18px 0px;
-    transition:.5s;
+    transition:0.5s;
   }
 .yellow:hover .button_text {
-    display: block;
+    transition:0.5s;
+    opacity: 1;
 }
 .buttons {
     column-gap: 5vw;
@@ -105,3 +109,13 @@ footer {
     padding: 10px;
     border-radius: 100px; 
 }
+
+#particles-js {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #090C2F;
+  }
